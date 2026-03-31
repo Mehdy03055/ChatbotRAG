@@ -40,3 +40,4 @@ for question in questions:
     print(f"Réponse  : {reponse[:300]}...")
     print(f"Sources  : {[doc.metadata.get('source', '?') for doc in sources[:2]]}")
     print()
+    
